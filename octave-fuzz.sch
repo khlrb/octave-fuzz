@@ -18376,12 +18376,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </classes>
 <parts>
 <part name="IN" library="testpad" deviceset="TP" device="PAD1-17Y"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="0207/10"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0207/10" value="1M"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="2M"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0207/10" value="3.3M"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0207/10" value="220k"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -18393,49 +18393,49 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="SUPPLY3" library="supply2" deviceset="+9V" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="+9V" device=""/>
 <part name="POT_GAIN1" library="testpad" deviceset="TP" device="PAD1-20Y"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="E3.5-8"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="0207/10" value="47k"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="050-025X075" value=".47µF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="050-025X075" value=".1µF"/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="1µF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="T3" library="transistor" deviceset="2N5089" device=""/>
-<part name="D1" library="diode" deviceset="DIODE-" device="D-12.5"/>
+<part name="D1" library="diode" deviceset="DIODE-" device="D-12.5" value="1N914"/>
 <part name="T4" library="transistor" deviceset="2N5089" device=""/>
 <part name="T5" library="transistor" deviceset="2N5089" device=""/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="0207/10"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="050-025X075" value=".1µF"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="050-025X075" value=".1µF"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="0207/10" value="100k"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="0207/10" value="100k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="IC1" library="ic-package" deviceset="DIL8" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="R12" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="0207/10"/>
+<part name="IC1" library="ic-package" deviceset="DIL8" device="" value="NE5532"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="050-025X075" value=".01µF"/>
+<part name="R12" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
+<part name="R13" library="resistor" deviceset="R-EU_" device="0207/10" value="270"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="CPOL-EU" device="E3.5-8"/>
+<part name="C9" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="100µF"/>
 <part name="SUPPLY5" library="supply2" deviceset="+9V" device=""/>
 <part name="C10" library="rcl" deviceset="CPOL-EU" device="E3.5-8"/>
-<part name="C11" library="rcl" deviceset="CPOL-EU" device="E3.5-8"/>
+<part name="C11" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="10µF"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="D-12.5"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="D-12.5"/>
 <part name="D4" library="diode" deviceset="DIODE-" device="D-12.5"/>
 <part name="D5" library="diode" deviceset="DIODE-" device="D-12.5"/>
 <part name="D6" library="diode" deviceset="DIODE-" device="D-12.5"/>
 <part name="D7" library="diode" deviceset="DIODE-" device="D-12.5"/>
-<part name="R14" library="resistor" deviceset="R-EU_" device="0207/10"/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="0207/10" value="100k"/>
 <part name="SUPPLY6" library="supply2" deviceset="+9V" device=""/>
-<part name="R15" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R16" library="resistor" deviceset="R-EU_" device="0207/10"/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="0207/10" value="33k"/>
+<part name="R16" library="resistor" deviceset="R-EU_" device="0207/10" value="4.7k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C12" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="R17" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R18" library="resistor" deviceset="R-EU_" device="0207/10"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="050-025X075" value=".47µF"/>
+<part name="R17" library="resistor" deviceset="R-EU_" device="0207/10" value="33k"/>
+<part name="R18" library="resistor" deviceset="R-EU_" device="0207/10" value="220k"/>
 <part name="POT_GAIN2_1" library="testpad" deviceset="TP" device="PAD1-20Y"/>
 <part name="POT_GAIN2_2" library="testpad" deviceset="TP" device="PAD1-20Y"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -18444,16 +18444,17 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="POT_VOL2" library="testpad" deviceset="TP" device="PAD1-20Y"/>
 <part name="SUPPLY7" library="supply2" deviceset="+9V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R19" library="resistor" deviceset="R-EU_" device="0207/10"/>
-<part name="R20" library="resistor" deviceset="R-EU_" device="0207/10"/>
+<part name="R19" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
+<part name="R20" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="rcl" deviceset="CPOL-EU" device="E3.5-8"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="050-025X075"/>
-<part name="R21" library="pot" deviceset="TRIM_EU-" device="CA9V"/>
+<part name="C13" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="100µF"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="050-025X075" value=".1µF"/>
+<part name="R21" library="pot" deviceset="TRIM_EU-" device="CA9V" value="1M"/>
 <part name="SUPPLY8" library="supply2" deviceset="+9V" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND" library="testpad" deviceset="TP" device="PAD1-20Y"/>
 <part name="+9V" library="testpad" deviceset="TP" device="PAD1-20Y"/>
+<part name="R22" library="resistor" deviceset="R-EU_" device="0207/10" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -18540,6 +18541,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="GND15" gate="1" x="10.16" y="12.7"/>
 <instance part="GND" gate="G$1" x="10.16" y="20.32"/>
 <instance part="+9V" gate="G$1" x="10.16" y="35.56" rot="R180"/>
+<instance part="R22" gate="G$1" x="68.58" y="-17.78"/>
 </instances>
 <busses>
 </busses>
@@ -18852,6 +18854,11 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <junction x="73.66" y="-7.62"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-7.62" x2="78.74" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="-17.78" x2="73.66" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-15.24" x2="68.58" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-15.24" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-7.62" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -18880,6 +18887,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="73.66" y1="-5.08" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="73.66" y="-5.08"/>
 <junction x="83.82" y="-5.08"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="-17.78" x2="63.5" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-5.08" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
